@@ -2,10 +2,10 @@ from random import choice
 from os import system
 
 chave = ['Clayton', 'Vitor', 'Pedro', 'Lucas', 'Andre', 'Bruno', 'Italo', 'David', 'Saulo', 'Maria', 'Mario', 'Pedro', 'Marco', 'Julia', 'Julio', 'Jesus', 'Saulo', 'Elias', 'Alice', 'Laura', 'Sofia', 'Sarah', 'Carol', 'Thais', 'Emily', 'Denis', 'Isaac', 'Roger', 'Steve', 'Kevin', 'Peter', 'Diego', 'Diogo', 'Marta', 'Zelia', 'Celia', 'Drake', 'Cesar', 'Paulo', 'Jakob', 'Carla', 'Igor',
-         'Juraci', 'Inacio', 'Inadilson', 'Fernanda', 'Fernando', 'Junior', 'Leandro', 'Patricia', 'Mariane', 'Mariane', 'Iara', 'Kelvin', 'Manoel', 'Jose', 'Marlon', 'Cleverton', 'Miguel', 'Luiz', 'Joao', 'Amanda', 'Larissa', 'Anna', 'Beatriz', 'Gabriel', 'Gabriela', 'Marcelo', 'Hentony', 'Wanderson', 'Geivison', 'Caua', 'Kaua', 'Yuri', 'Vanessa', 'Analyce', 'Caio', 'Vitoria', 'Adelmo', 'Sergio']
+         'Juraci', 'Inacio', 'Inadilson', 'Fernanda', 'Fernando', 'Junior', 'Leandro', 'Patricia', 'Mariane', 'Mariane', 'Iara', 'Kelvin', 'Manoel', 'Jose', 'Marlon', 'Cleverton', 'Miguel', 'Luiz', 'Joao', 'Amanda', 'Larissa', 'Anna', 'Beatriz', 'Gabriel', 'Gabriela', 'Marcelo', 'Hentony', 'Wanderson', 'Geivison', 'Caua', 'Kaua', 'Yuri', 'Vanessa', 'Analyce', 'Caio', 'Vitoria', 'Adelmo', 'Sergio', 'Luiza', 'Rafael', 'Maggie', 'Chico', 'Karen', 'Mirela', 'Marcia', 'Anunciada', 'Clarice']
 palavra = ''
 chave = choice(chave).lower()
-print('\033[35mRegras: \n1ª - O usuário tem 5 chances para acertar o nome; \n2ª - Letras vermelhas não tem na palavra chave; \n3ª - Letras amarelas sestão na posição errada; \n4ª - Letras verdes estão na posição certa; \nBoa Sorte!!!\033[m')
+print('\033[35mRegras: \n1ª - O usuário tem 5 chances para acertar o nome; \n2ª - Letras vermelhas não tem na palavra chave; \n3ª - Letras amarelas estão na posição errada; \n4ª - Letras verdes estão na posição certa; \nBoa Sorte!!!\033[m')
 resp = str(input('\n\n\033[35mQuer Começar? [S / N]: \033[m'))
 if resp in 'Ss':
     i = 1
