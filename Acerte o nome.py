@@ -13,7 +13,7 @@ if resp in 'Ss':
     while i <= 5 and palavra != chave:
         print(f'\033[34mTentativa {i}\033[m')
         palavra = input(
-            f'\033[34mDigite um nome ({len(chave)} letras): \033[m').lower()
+            f'\033[34mDigite um nome ({len(chave)} letras):  \033[m').lower()
         while len(palavra) != len(chave):
             palavra = input(f'\033[34mErro! insira uma palavra com {len(chave)} letras: \033[m').lower()
         for c in range(0, len(chave), 1):
